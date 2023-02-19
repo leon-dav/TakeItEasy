@@ -1,5 +1,5 @@
 from lib.board import Board
-from strategies.lookAhead import Cassis
+from strategies.others import Groseille
 
 ##################################################################
 """
@@ -23,7 +23,7 @@ Strategies: Random() < Baseline() < Groseille() < Cassis()
 ##################################################################
 # Variables
 board = Board()
-strat = Cassis()
+strat = Groseille()
 
 ##################################################################
 # Game
