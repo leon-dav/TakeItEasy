@@ -1,7 +1,7 @@
 import statistics
 from strategies.baseline import Baseline
 from strategies.random import Random
-from strategies.others import Johnny
+from strategies.others import Groseille
 from strategies.lookAhead import Cassis
 from lib.simulation import simulate, simulate_processes
 
@@ -20,7 +20,7 @@ Remainder of the board representation:
 	6		15
 		11
 
-Strategies: Random() < Baseline() < Johnny() < Cassis()
+Strategies: Random() < Baseline() < Groseille() < Cassis()
 """
 ##################################################################
 # functions

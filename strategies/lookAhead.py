@@ -1,7 +1,6 @@
 from lib.board import Board
 from lib.strategy import Strategy
 from strategies.baseline import Baseline
-from strategies.others import Johnny
 import copy
 from lib.simulation import simulate_processes, simulate
 
